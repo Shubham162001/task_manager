@@ -1,0 +1,6 @@
+fastapi
+sqlalchemy
+dotenv
+pydantic
+models
+uvicorn
