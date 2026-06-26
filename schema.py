@@ -19,14 +19,14 @@ class UserResponse(BaseModel):
 
 class TaskCreate(BaseModel):
     title: str
-    discription: str
+    description: str
     status: str
     priority: str
 
 
 class TaskUpdate(BaseModel):
     title: Optional[str] = None
-    discription: Optional[str] = None
+    description: Optional[str] = None
     Status: Optional[str] = None
     priority: Optional[str] = None
 
